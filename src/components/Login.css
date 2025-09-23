@@ -1,0 +1,81 @@
+/* Login.css - Super Simple */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffb3d9;
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.login-form h2 {
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  color: #d63384;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffb3d9;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.form-group input:focus {
+  border-color: #d63384;
+}
+
+.login-button {
+  background-color: #d63384;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.login-button:hover {
+  background-color: #c2185b;
+}
+
+.signup-button {
+  background-color: white;
+  color: #d63384;
+  padding: 12px;
+  width: 100%;
+  border: 2px solid #d63384;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signup-button:hover {
+  background-color: #d63384;
+  color: white;
+}
+
+.error-message {
+  color: #d63384;
+  background-color: #ffeef8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}

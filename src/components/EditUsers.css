@@ -1,0 +1,46 @@
+/* EditUser.css - Extra Simple */
+
+.edit-user-container {
+  background-color: pink;
+  padding: 20px;
+}
+
+.edit-user-form {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+}
+
+h2 {
+  color: hotpink;
+}
+
+label {
+  color: hotpink;
+}
+
+input {
+  width: 280px;
+  padding: 10px;
+  border: 1px solid pink;
+}
+
+button {
+  background-color: hotpink;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+}
+
+.cancel-btn {
+  background-color: white;
+  color: hotpink;
+  border: 1px solid hotpink;
+}
+
+.error-message {
+  color: hotpink;
+  background-color: lightpink;
+  padding: 10px;
+}

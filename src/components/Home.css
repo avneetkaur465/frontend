@@ -1,0 +1,117 @@
+/* Home.css - Super Simple */
+.home-container {
+  background-color: #ffb3d9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.home-header {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-header h2 {
+  color: #d63384;
+  margin: 0;
+}
+
+.logout-btn {
+  background-color: #d63384;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: #c2185b;
+}
+
+.users-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.users-list h3 {
+  color: #d63384;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #d63384;
+  padding-bottom: 10px;
+}
+
+.users-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.user-card {
+  background-color: #ffeef8;
+  border: 2px solid #ffb3d9;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.user-info h4 {
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.user-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.user-actions {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.edit-btn {
+  background-color: #ff69b4;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #e91e63;
+}
+
+.delete-btn {
+  background-color: #d63384;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #c2185b;
+}
+
+.loading {
+  text-align: center;
+  color: #d63384;
+  font-size: 20px;
+  padding: 50px;
+  background: white;
+  border-radius: 10px;
+}
+
+.error-message {
+  color: #d63384;
+  background-color: #ffeef8;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
