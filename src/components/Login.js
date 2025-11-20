@@ -2,7 +2,7 @@ import React, {useState} from 'react';
  // useState (hook) where u store value and u can change the values inside components.
 
 import {useNavigate} from 'react-router-dom';
-//usenavigate hook that lets u move to another page.
+
 import './Login.css';
  // to make our css codes work in this file.
 function Login() {
@@ -14,7 +14,7 @@ function Login() {
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
-    /*setEmail to upadate email value and usestate to store the value.
+    /*setEmail to upadate email value and usestate to store the value
      for loading useState is false bcz when user clcik on login button it will be  true.
     and then the login button will be disaled to prevent double click or multiple submissions.
 setError to update error messages*/
@@ -33,6 +33,7 @@ setError to update error messages*/
             setLoading(false);
             return;
         }
+        
 
         try {
             // API call to backend

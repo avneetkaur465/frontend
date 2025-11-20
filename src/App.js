@@ -6,7 +6,7 @@ import Home from './components/Home';
 import EditUsers from './components/EditUsers';
 
 
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
